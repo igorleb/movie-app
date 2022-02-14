@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="#" />
+    <title>Movie App</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <header class="header">
+          <div class="header-container">
+            <form id="form">
+              <input
+                type="search"
+                id="search"
+                class="search"
+                placeholder="Search"
+                readonly
+                onfocus="this.removeAttribute('readonly')"
+              />
+            </form>
+          </div>
+        </header>
+        <main class="main">
+          <div class="movies"></div>
+        </main>
+        <footer class="footer">
+          <div class="footer-container">
+            <div class="footer-data">
+              <p class="copyright">©</p>
+              <p class="year">2022</p>
+              <a class="github-username" href="#">github</a>
+            </div>
+            <a class="rss-logo" href="https://rs.school/js-stage0/"></a>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
